@@ -23,7 +23,7 @@ Route::get('/{locale}', 'ExampleController@homePage');
 Route::get('/{locale}/{page_url}', 'ExampleController@otherPage');
 ```
 
-## Controllers example
+## Controller example
 ```
 namespace App\Http\Controllers;
 
