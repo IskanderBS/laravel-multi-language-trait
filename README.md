@@ -4,9 +4,10 @@ A simple trait for a multilingual site based on Laravel.
 When the client requests / for the first time, it redirects to the language corresponding to the browser language (for example: / en) if it is supported, or to the default application language. The selected language is saved in the cookie. Also, a trait helps to check the validity of the requested locale and its support by the application, and also to remember the locale when switching.
 
 ## Usage
-1. Copy "LangTrait.php" to "app/Traits".
-2. Config routes.
-3. Config controllers.
+1. Copy "LangTrait.php" to "app/Traits"
+2. Add array of supported locales ("supported_locales") to config/app.php
+3. Configure routes
+4. Configure controllers
 
 ## Routes example
 ```
