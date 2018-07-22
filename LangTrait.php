@@ -33,7 +33,7 @@ trait LangTrait
 		return redirect('/' . $app_locale);
 	}
 	
-    public function checkLang($locale)
+	public function checkLang($locale)
 	{
 		// Checking requested locale support
 		if (in_array($locale, config('app.supported_locales'))) 
