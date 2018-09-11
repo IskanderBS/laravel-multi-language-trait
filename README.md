@@ -1,4 +1,4 @@
-# laravel-multi-language-trait
+# Laravel multilanguage
 A simple trait for a multilingual site based on Laravel.
 
 When the client requests / for the first time, it redirects to the language corresponding to the browser language (for example: / en) if it is supported, or to the default application language. The selected language is saved in the cookie. Also, a trait helps to check the validity of the requested locale and its support by the application, and also to remember the locale when switching.
