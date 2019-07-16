@@ -11,9 +11,9 @@ Supported only ISO 639-1 Codes.
 3. Configure routes
 4. Configure controllers
 
-## Array of supported locales example
+## Array of supported locales in config/app.php example
 ```
-$supported_locales = ['en', 'de', 'fr', 'it'];
+"supported_locales" => ['en', 'de', 'fr', 'it'];
 ```
 
 ## Routes example
